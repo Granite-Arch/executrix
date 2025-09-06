@@ -1988,6 +1988,10 @@ guiTypes = {
 					width = 400
 					height = 1000
 				}
+				slotsize = {
+					width = 60
+					height = 70
+				}
 				format = "UP"
 			}
 			gridboxtype = {

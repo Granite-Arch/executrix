@@ -1047,7 +1047,6 @@ IMP_turkey_puppet_decisions = {
 		}
 	}
 	imp_finish_turkey = {
-		icon = border_war
 		allowed = {
 			TUR = {
 				imperialism = >0.55
