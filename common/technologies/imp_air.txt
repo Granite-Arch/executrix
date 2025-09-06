@@ -1,3 +1,53 @@
 technologies = {
-	
+	imp_small_airframe = {
+        research_cost = 1
+        start_year = 1936
+        enable_equipment = {
+            imp_small_airframe_1
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        folder = {
+            name = imp_air_folder
+            position = {
+                x = 0
+                y = 2
+            }
+        }
+    }
+    imp_medium_airframe = {
+        research_cost = 1
+        start_year = 1936
+        enable_equipment = {
+            imp_medium_airframe_1
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        folder = {
+            name = imp_air_folder
+            position = {
+                x = 2
+                y = 2.8
+            }
+        }
+    }
+    imp_large_airframe = {
+        research_cost = 1
+        start_year = 1936
+        enable_equipment = {
+            imp_large_airframe_1
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        folder = {
+            name = imp_air_folder
+            position = {
+                x = 0
+                y = 2
+            }
+        }
+    }
 }
