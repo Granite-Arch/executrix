@@ -895,7 +895,7 @@ IMP_turkey_puppet_decisions = {
 						}
 					}
 				}
-				50 = {
+				40 = {
 					country_event = {
 						id = imperial_move_turkey.1
 						days = 1
@@ -962,7 +962,7 @@ IMP_turkey_puppet_decisions = {
 						}
 					}
 				}
-				50 = {
+				40 = {
 					country_event = {
 						id = imperial_move_turkey.1
 						days = 1
@@ -988,7 +988,7 @@ IMP_turkey_puppet_decisions = {
 			}
 		}
 	}
-	imp_extend_imperialism_2 = {
+	imp_extend_imperialism_further = {
 		visible = {
 			TUR = {
 				imperialism = >0.1
@@ -1004,23 +1004,24 @@ IMP_turkey_puppet_decisions = {
 		days_remove = 50
 
 		complete_effect = {
-			
-			50 = {
+			random_list = {
+			 50 = {
 			    TUR = {
 				 add_popularity = {
 					 ideology = imperialism
 					 popularity = 0.05
 				   } 
 			    }
-		   }
-		   50 = {
+		       }
+		       50 = {
 			    IMP = {
 			     country_event = {
 					 id = imperial_move_turkey.1
 					 days = 1
 				    }
-			    }
-		   }
+			     }
+		       }
+		    }
 		}
 	}
 	imp_take_our_claims = {
