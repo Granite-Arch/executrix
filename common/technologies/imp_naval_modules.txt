@@ -232,6 +232,22 @@ technologies = {
 		}
 	}
 
+	heavy_turbolaser_1 = {
+		research_cost = 1
+		start_year = 1936
+		enable_equipment_modules = {
+			ship_heavy_turbolaser_1
+		}
+		categories = {
+			bb_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+		folder = {
+			name = imp_naval_modules_folder
+			position = { x = 1 y = 7.5 }
+		}
+	}
+
 	###Imperial special naval projects##
 	imp_reactor_tech = {
 		enable_equipment_modules = {

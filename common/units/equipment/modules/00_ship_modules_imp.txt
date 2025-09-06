@@ -199,6 +199,22 @@ equipment_modules = {
 		}
 	}
 
+	imp_heavy_turbolaser_1 = {
+		category = ship_heavy_battery_duel
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 45
+			hg_attack = 75
+		}
+		multiply_stats = {
+		 naval_speed = -0.05
+	    }
+	    add_average_stats = {
+		 lg_armor_piercing = 50
+		 hg_armor_piercing = 35
+	    }
+	}
+
 	imp_reactor_1 = {
 		category = large_ship_engine
 		sfx = sfx_ui_sd_module_engine
